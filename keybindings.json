@@ -1,0 +1,51 @@
+// Place your key bindings in this file to override the defaults
+[
+  // 📁 Explorador de archivos
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.view.explorer",
+    "when": "activeViewlet != 'workbench.view.explorer'"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.action.closeSidebar",
+    "when": "activeViewlet == 'workbench.view.explorer'"
+  },
+
+  // 🔍 Buscar
+  {
+    "key": "ctrl+shift+f",
+    "command": "workbench.view.search",
+    "when": "activeViewlet != 'workbench.view.search'"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "workbench.action.closeSidebar",
+    "when": "activeViewlet == 'workbench.view.search'"
+  },
+
+  // 🧩 Extensiones
+  {
+    "key": "ctrl+shift+x",
+    "command": "workbench.view.extensions",
+    "when": "activeViewlet != 'workbench.view.extensions'"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "workbench.action.closeSidebar",
+    "when": "activeViewlet == 'workbench.view.extensions'"
+  },
+
+  // 🧬 Git / Control de código fuente
+  {
+    "key": "ctrl+shift+g",
+    "command": "workbench.view.scm",
+    "when": "activeViewlet != 'workbench.view.scm'"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "workbench.action.closeSidebar",
+    "when": "activeViewlet == 'workbench.view.scm'"
+  },
+
+]

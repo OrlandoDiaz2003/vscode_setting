@@ -1,0 +1,26 @@
+{
+    //workbench settings
+    "workbench.activityBar.location": "bottom",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.showTabs": "single",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "ZED Editor Dark Theme",
+    "workbench.editor.limit.value": 1,
+    "workbench.layoutControl.enabled": false,
+
+    //editor settings
+    "editor.fontSize": 16,
+    "editor.lineHeight": 20,
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "on",
+    "editor.cursorStyle": "block",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.scrollbar.vertical": "auto",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+    
+    //explorer settings
+    "explorer.compactFolders": false,
+}

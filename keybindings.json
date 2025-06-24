@@ -1,51 +1,82 @@
-// Place your key bindings in this file to override the defaults
 [
-  // 📁 Explorador de archivos
+  // 📁 Explorador de archivos (,e)
   {
-    "key": "ctrl+shift+e",
+    "key": ", e",
     "command": "workbench.view.explorer",
-    "when": "activeViewlet != 'workbench.view.explorer'"
+    "when": "activeViewlet != 'workbench.view.explorer' && vim.mode == 'Normal'"
   },
   {
-    "key": "ctrl+shift+e",
+    "key": ", e",
     "command": "workbench.action.closeSidebar",
-    "when": "activeViewlet == 'workbench.view.explorer'"
+    "when": "activeViewlet == 'workbench.view.explorer' && vim.mode == 'Normal'"
   },
 
-  // 🔍 Buscar
+  // 🔍 Buscar (,f)
   {
-    "key": "ctrl+shift+f",
+    "key": ", f",
     "command": "workbench.view.search",
-    "when": "activeViewlet != 'workbench.view.search'"
+    "when": "activeViewlet != 'workbench.view.search' && vim.mode == 'Normal'"
   },
   {
-    "key": "ctrl+shift+f",
+    "key": ", f",
     "command": "workbench.action.closeSidebar",
-    "when": "activeViewlet == 'workbench.view.search'"
+    "when": "activeViewlet == 'workbench.view.search' && vim.mode == 'Normal'"
   },
 
-  // 🧩 Extensiones
+  // 🧩 Extensiones (,x)
   {
-    "key": "ctrl+shift+x",
+    "key": ", x",
     "command": "workbench.view.extensions",
-    "when": "activeViewlet != 'workbench.view.extensions'"
+    "when": "activeViewlet != 'workbench.view.extensions' && vim.mode == 'Normal'"
   },
   {
-    "key": "ctrl+shift+x",
+    "key": ", x",
     "command": "workbench.action.closeSidebar",
-    "when": "activeViewlet == 'workbench.view.extensions'"
+    "when": "activeViewlet == 'workbench.view.extensions' && vim.mode == 'Normal'"
   },
 
-  // 🧬 Git / Control de código fuente
+  // 🧬 Git / Control de código fuente (,g)
   {
-    "key": "ctrl+shift+g",
+    "key": ", g",
     "command": "workbench.view.scm",
-    "when": "activeViewlet != 'workbench.view.scm'"
+    "when": "activeViewlet != 'workbench.view.scm' && vim.mode == 'Normal'"
   },
   {
-    "key": "ctrl+shift+g",
+    "key": ", g",
     "command": "workbench.action.closeSidebar",
-    "when": "activeViewlet == 'workbench.view.scm'"
+    "when": "activeViewlet == 'workbench.view.scm' && vim.mode == 'Normal'"
   },
+
+  // 🖥️ Terminal integrada (,j)
+  {
+    "key": ", j",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "vim.mode == 'Normal'"
+  },
+
+  // 🔍 Búsqueda rápida de archivos (,P)
+  {
+    "key": ", P",
+    "command": "workbench.action.quickOpen",
+    "when": "vim.mode == 'Normal'"
+  },
+
+  // 🤖 Chat de GitHub Copilot (,b)
+  {
+    "key": ", b",
+    "command": "workbench.action.chat.openAsk",
+    "when": "chatVisible != true && vim.mode == 'Normal'"
+  },
+  {
+    "key": ", b",
+    "command": "workbench.action.closeAuxiliaryBar",
+    "when": "auxiliaryBarFocus == true && vim.mode == 'Normal'"
+  },
+  //cerrar ventanas
+  {
+    "key": ", w",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "vim.mode == 'Normal'"
+  }
 
 ]

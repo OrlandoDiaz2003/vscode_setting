@@ -6,7 +6,7 @@
     "workbench.editor.limit.perEditorGroup": true,
     "workbench.editor.showTabs": "single",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "ZED Editor Dark Theme",
+    "workbench.colorTheme": "Super One Dark",
     "workbench.editor.limit.value": 1,
     "workbench.layoutControl.enabled": false,
 
@@ -14,7 +14,7 @@
     "editor.fontSize": 16,
     "editor.lineHeight": 20,
     "editor.minimap.enabled": false,
-    "editor.lineNumbers": "on",
+    "editor.lineNumbers": "relative",
     "editor.cursorStyle": "block",
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.scrollbar.vertical": "auto",
@@ -23,4 +23,16 @@
     
     //explorer settings
     "explorer.compactFolders": false,
+
+    //vim
+    "vim.leader": "<,>",
+
+    //github copilot
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+    },
+
 }

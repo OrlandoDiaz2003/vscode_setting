@@ -1,5 +1,5 @@
 [
-  // 📁 Explorador de archivos (,e)
+  //Explorador de archivos (,e)
   {
     "key": ", e",
     "command": "workbench.view.explorer",
@@ -11,7 +11,7 @@
     "when": "activeViewlet == 'workbench.view.explorer' && vim.mode == 'Normal'"
   },
 
-  // 🔍 Buscar (,f)
+  // Buscar (,f)
   {
     "key": ", f",
     "command": "workbench.view.search",
@@ -23,7 +23,7 @@
     "when": "activeViewlet == 'workbench.view.search' && vim.mode == 'Normal'"
   },
 
-  // 🧩 Extensiones (,x)
+  //Extensiones (,x)
   {
     "key": ", x",
     "command": "workbench.view.extensions",
@@ -35,7 +35,7 @@
     "when": "activeViewlet == 'workbench.view.extensions' && vim.mode == 'Normal'"
   },
 
-  // 🧬 Git / Control de código fuente (,g)
+  // Git / Control de código fuente (,g)
   {
     "key": ", g",
     "command": "workbench.view.scm",
@@ -47,21 +47,21 @@
     "when": "activeViewlet == 'workbench.view.scm' && vim.mode == 'Normal'"
   },
 
-  // 🖥️ Terminal integrada (,j)
+  //Terminal integrada (,j)
   {
     "key": ", j",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "vim.mode == 'Normal'"
   },
 
-  // 🔍 Búsqueda rápida de archivos (,P)
+  //Búsqueda rápida de archivos (,P)
   {
     "key": ", P",
     "command": "workbench.action.quickOpen",
     "when": "vim.mode == 'Normal'"
   },
 
-  // 🤖 Chat de GitHub Copilot (,b)
+  //Chat de GitHub Copilot (,b)
   {
     "key": ", b",
     "command": "workbench.action.chat.openAsk",
@@ -72,7 +72,8 @@
     "command": "workbench.action.closeAuxiliaryBar",
     "when": "auxiliaryBarFocus == true && vim.mode == 'Normal'"
   },
-  //cerrar ventanas
+
+  //Cerrar ventanas
   {
     "key": ", w",
     "command": "workbench.action.closeActiveEditor",

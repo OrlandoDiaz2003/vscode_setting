@@ -9,10 +9,14 @@
     "workbench.colorTheme": "Super One Dark",
     "workbench.editor.limit.value": 1,
     "workbench.layoutControl.enabled": false,
+    
+    //files save
+    "files.autoSave": "onWindowChange",
 
     //editor settings
     "editor.fontSize": 16,
     "editor.lineHeight": 20,
+    "editor.wordWrap": "on",
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
     "editor.cursorStyle": "block",
@@ -26,6 +30,9 @@
 
     //vim
     "vim.leader": "<,>",
+    "vim.autoindent": true,
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.useSystemClipboard": true,
 
     //github copilot
     "github.copilot.enable": {

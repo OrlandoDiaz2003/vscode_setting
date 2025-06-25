@@ -5,11 +5,11 @@
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.perEditorGroup": true,
     "workbench.editor.showTabs": "single",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "rose-pine-nvchad-theme",
     "workbench.editor.limit.value": 1,
     "workbench.layoutControl.enabled": false,
-    
+    "workbench.colorTheme": "rose-pine-nvchad-theme",
+    "workbench.iconTheme": "material-icon-theme",
+
     //files save
     "files.autoSave": "onWindowChange",
 
@@ -19,21 +19,24 @@
     "editor.wordWrap": "on",
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
+    "editor.cursorBlinking": "phase",
     "editor.cursorStyle": "block",
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
     "editor.scrollbar.vertical": "auto",
     "editor.hideCursorInOverviewRuler": true,
     "editor.overviewRulerBorder": false,
-    "editor.rulers": [80],
     "editor.suggest.insertMode": "replace",
     "editor.stickyScroll.enabled": true,
-
     "editor.linkedEditing": true,
+
     //explorer settings
     "explorer.compactFolders": false,
 
     //window
     "window.zoomLevel": 1,
+    "window.menuBarVisibility": "toggle",
+    "window.title": " ",
 
     //vim
     "vim.leader": "<,>",
@@ -56,5 +59,5 @@
         "markdown": false,
         "scminput": false,
     },
-
+    
 }

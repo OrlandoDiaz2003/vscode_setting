@@ -78,6 +78,24 @@
     "key": ", w",
     "command": "workbench.action.closeActiveEditor",
     "when": "vim.mode == 'Normal'"
-  }
+  },
 
+  //ver code suggestion
+  {
+    "key": ", s",
+    "command": "editor.action.triggerSuggest",
+    "when": "vim.mode == 'Normal'"
+  },
+
+  //quick fix
+  {
+    "key": ", a",
+    "command": "editor.action.quickFix",
+    "when": "vim.mode == 'Normal'"
+  }
+  
+    
+
+
+  
 ]

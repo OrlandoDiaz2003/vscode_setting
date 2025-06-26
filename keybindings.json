@@ -61,17 +61,29 @@
     "when": "vim.mode == 'Normal'"
   },
 
-  //abrir una carpeta
+  //ir a las advertencia
   {
-    "key": ", k",
-    "command": "workbench.action.files.openFolder",
+    "key": ", [",
+    "command": "editor.action.marker.prev",
     "when": "vim.mode == 'Normal'"
   },
 
-  //abrir un archivo
+  {
+    "key": ", ]",
+    "command": "editor.action.marker.next",
+    "when": "vim.mode == 'Normal'"
+  },
+  //abrir archivo
   {
     "key": ", o",
     "command": "workbench.action.files.openFile",
+    "when": "vim.mode == 'Normal'"
+  },
+
+  //abrir una carpeta
+  {
+    "key": ", k",
+    "command": "workbench.action.files.openFileFolder",
     "when": "vim.mode == 'Normal'"
   },
 
@@ -96,15 +108,22 @@
 
   //ver code suggestion
   {
-    "key": ", s",
+    "key": ", c",
     "command": "editor.action.triggerSuggest",
     "when": "vim.mode == 'Normal'"
   },
 
   //quick fix
   {
-    "key": ", a",
+    "key": ", q",
     "command": "editor.action.quickFix",
+    "when": "vim.mode == 'Normal'"
+  },
+
+  //mostrar doc de funcion
+  {
+    "key": ", a",
+    "command": "editor.action.showHover",
     "when": "vim.mode == 'Normal'"
   },
   

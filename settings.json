@@ -16,7 +16,7 @@
     //editor settings
     "editor.fontSize": 16,
     "editor.lineHeight": 20,
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "phase",
@@ -60,5 +60,4 @@
         "markdown": false,
         "scminput": false,
     },
-    
 }

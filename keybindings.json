@@ -61,6 +61,20 @@
     "when": "vim.mode == 'Normal'"
   },
 
+  //abrir una carpeta
+  {
+    "key": ", k",
+    "command": "workbench.action.files.openFolder",
+    "when": "vim.mode == 'Normal'"
+  },
+
+  //abrir un archivo
+  {
+    "key": ", o",
+    "command": "workbench.action.files.openFile",
+    "when": "vim.mode == 'Normal'"
+  },
+
   //Chat de GitHub Copilot (,b)
   {
     "key": ", b",
@@ -76,7 +90,7 @@
   //Cerrar ventanas
   {
     "key": ", w",
-    "command": "workbench.action.closeActiveEditor",
+    "command": "workbench.action.closeEditorsInGroup",
     "when": "vim.mode == 'Normal'"
   },
 

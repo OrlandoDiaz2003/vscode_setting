@@ -29,12 +29,13 @@
     "editor.suggest.insertMode": "replace",
     "editor.stickyScroll.enabled": true,
     "editor.linkedEditing": true,
+    "editor.smoothScrolling": true,
 
     //explorer settings
     "explorer.compactFolders": false,
 
     //window
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 1.4,
     "window.menuBarVisibility": "toggle",
     "window.title": " ",
 

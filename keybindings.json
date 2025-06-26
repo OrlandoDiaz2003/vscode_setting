@@ -92,10 +92,41 @@
     "key": ", a",
     "command": "editor.action.quickFix",
     "when": "vim.mode == 'Normal'"
-  }
+  },
   
-    
+  //moverse entre paneles
+  {
+    "key":"ctrl+h",
+    "command": "workbench.action.focusLeftGroup",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key":"ctrl+l",
+    "command": "workbench.action.focusRightGroup",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  },
 
+  //agrandar paneles y chicar
+  {
+    "key":"ctrl+k",
+    "command":  "workbench.action.increaseViewSize",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.decreaseViewSize",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  },
+ //enfocar en distintos paneles 
+  {
+    "key": ", 1",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "vim.mode == 'Normal'"
+  },
+  {
+    "key": ", 2",
+    "command": "workbench.action.focusSecondEditorGroup",
+    "when": "vim.mode == 'Normal'"
+  },
 
-  
 ]

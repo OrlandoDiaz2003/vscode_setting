@@ -4,41 +4,36 @@
     "workbench.sideBar.location": "right",
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.perEditorGroup": true,
-    "workbench.editor.showTabs": "single",
+    "workbench.editor.showTabs": "none",
     "workbench.editor.limit.value": 1,
-    "workbench.layoutControl.enabled": false,
-    "workbench.colorTheme": "rose-pine-nvchad-theme",
     "workbench.iconTheme": "material-icon-theme",
-
-    //files save
+   //files save
     "files.autoSave": "onWindowChange",
-
     //editor settings
-    "editor.fontSize": 16,
+    "editor.fontSize": 17,
     "editor.lineHeight": 20,
     "editor.wordWrap": "off",
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "phase",
     "editor.cursorStyle": "block",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
-    "editor.scrollbar.vertical": "auto",
+    "editor.fontFamily": "IosevkaTerm Nerd Font Mono",
+    "editor.scrollbar.vertical": "hidden",
     "editor.hideCursorInOverviewRuler": true,
     "editor.overviewRulerBorder": false,
     "editor.suggest.insertMode": "replace",
-    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.enabled": false,
     "editor.linkedEditing": true,
-    "editor.smoothScrolling": true,
-
+    "editor.guides.indentation": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.renderLineHighlight": "none",
+    "editor.glyphMargin": false,
+    
     //explorer settings
     "explorer.compactFolders": false,
-
     //window
     "window.zoomLevel": 1.4,
-    "window.menuBarVisibility": "toggle",
     "window.title": " ",
-
     //vim
     "vim.leader": "<,>",
     "vim.autoindent": true,
@@ -47,7 +42,6 @@
     "vim.incsearch": true,
     "vim.hlsearch": false,
     "vim.showcmd": true,
-    "vim.enableNeovim": false,
     "vim.foldfix": true,
 
     //breadcrumbs
@@ -60,4 +54,10 @@
         "markdown": false,
         "scminput": false,
     },
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.startupEditor": "none",
+    "workbench.layoutControl.enabled": false,
 }
